@@ -1,4 +1,6 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
+
 import SubsTableItem from '@/Components/AdminComponents/SubsTableItem'
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
@@ -6,7 +8,7 @@ import { toast } from 'react-toastify';
 
 const page = () => {
 
-  const [emails,setEmails] = useState([]);
+  const [emails, setEmails] = useState([]);
 
   const fetchEmails = async () => {
     const response = await axios.get('/api/email');
@@ -62,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default page;
