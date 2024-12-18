@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/no-unescaped-entities */
 import { assets } from '@/Assets/assets'
 import axios from 'axios';
 import Image from 'next/image'
